@@ -9976,3 +9976,8 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
