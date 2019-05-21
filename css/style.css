@@ -9962,3 +9962,8 @@ textarea.form-control {
   transition: 0.5s;
   padding-top:80px;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+}
