@@ -4361,18 +4361,22 @@ input[type="button"].btn-block {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start; }
+.about-animation{
+	  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	
+}
 
 .media-body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; 
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
   /* box-shadow: 2px 2px; */
   }
 
-.media-body::after{
+.about-animation::after{
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   opacity: 0;
   -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -4380,13 +4384,13 @@ input[type="button"].btn-block {
 	
 }
 
-.media-body:hover{
+.about-animation:hover{
 	  -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
 	
 }
 
-.media-body:hover::after {
+.about-animation:hover::after {
     opacity: 1;
 }
   
@@ -9961,4 +9965,8 @@ textarea.form-control {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top:80px;
+}
+
+.body {
+	max-width:100%;
 }
