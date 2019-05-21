@@ -8449,11 +8449,11 @@ h1, h2, h3, h4, h5,
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
                 position: absolute;
                 top: 50%;
-                left: 0;
+                left: 50%;
                 -webkit-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
-                right: 0;
+                /* right: 0; */
                 max-width: 50%;
                 padding-left: 45px;
                 padding-right: 3em; } }
@@ -8679,11 +8679,13 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #e2c0bb;
     border: 1px solid #e2c0bb !important;
-    color: #fff !important; }
+    color: #fff !important;
+	opacity:0.9;}
     .btn.btn-primary:hover {
       border: 1px solid #e2c0bb;
       background: #e2c0bb;
-      color: #e2c0bb; }
+      color: #e2c0bb;
+	  opacity:1; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #e2c0bb !important;
       background: transparent !important;
