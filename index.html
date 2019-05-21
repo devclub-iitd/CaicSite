@@ -201,20 +201,26 @@
               <!-- <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-gliding"></span></div> -->
               <div class="media-body make-it-fast" >
                 <h3 class="heading mb-3 text-center">INAE</h3>
-				<ul>
+									<ul>
                         <li>
                             The <strong>Indian National Academy of Engineering (INAE)</strong> was founded in 1987 with the aim of promoting and advancing the practice of engineering and technology in the India.
                         </li>
-                        <li class="myclass" aria-hidden="false">
+                        <li class="myclass collapse" aria-hidden="false" id="li11">
                             It is an autonomous institution, registered under the Societies Registration Act 1860. It receives partial support via grant-in-aid programme of the Department of Science &amp; Technology, Government of India. It is recognised as a Scientific and Industrial Research Organisation (SIRO) by the Department of Scientific and Industrial Research, Government of India.
                         </li>
-                        <li class="myclass" aria-hidden="false">
+                        <li class="myclass collapse" aria-hidden="false" id="li12">
                             The institute is a member of the International Council of Academies of Engineering and Technological Sciences (CAETS).
                         </li>
                     </ul>
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p> -->
-              </div>
-            </div>      
+							<div class="text-right collapse show" id="showMore1">
+								<button class="btn" data-toggle="collapse" data-target="#showLess1, #li11, #li12, #showMore1">Show more</button><br>
+							</div>
+							<div class="text-right collapse" id="showLess1">
+								<button class="btn" data-toggle="collapse" data-target="#showMore1, #showLess1, #li11, #li12">Show less</button>							
+							</div>
+						</div>
+						</div>      
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block">
@@ -225,15 +231,21 @@
                         <li>
                             INAE Youth Conclave aims at facilitating the engagement of Indian youth in engineering activities at national level.
                         </li>
-                        <li class="yourclass">
+                        <li class="collapse" id="li21">
                             INAE through the creation of Youth Forum desires to extend the membership to young budding engineers thereby endorsing their talent and advocating their ability to contribute meaningfully to the development of the country.
                         </li>
-                        <li class="yourclass">
+                        <li class="collapse" id="li22">
                             The <strong>First INAE Youth Conclave</strong> was organised at Birla Institute for Scientific Research (BISR), Jaipur on Aug 11-12, 2017. The Youth Forum was inaugurated by <strong>Dr. K Kasturirangan</strong>, FNAE, Chairman, Karnataka Knowledge Commission during the INAE Youth Conclave.
                         </li>
                     </ul>
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p> -->
-              </div>
+								<div class="text-right collapse show" id="showMore2">
+										<button class="btn" data-toggle="collapse" data-target="#showLess2, #li22, #li21, #showMore2">Show more</button><br>
+									</div>
+									<div class="text-right collapse" id="showLess2">
+										<button class="btn" data-toggle="collapse" data-target="#showMore2, #showLess2, #li22, #li21">Show less</button>							
+									</div>
+							</div>
             </div>      
           </div>
 
