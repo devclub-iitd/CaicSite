@@ -8716,20 +8716,20 @@ h1, h2, h3, h4, h5,
         background: #e2c0bb !important;
         color: #fff !important; }
   .btn.btn-secondary {
-    background: #b2bbc9 !important;
-    border: 1px solid #b2bbc9 !important;
+    background: #e2c0bb !important;
+    border: 1px solid #e2c0bb !important;
     color: #fff !important; }
     .btn.btn-secondary:hover {
-      border: 1px solid #b2bbc9 !important;
+      border: 1px solid #e2c0bb !important;
       background: transparent !important;
-      color: #b2bbc9 !important; }
+      color: #e2c0bb !important; }
     .btn.btn-secondary.btn-outline-primary {
-      border: 1px solid #b2bbc9;
+      border: 1px solid #e2c0bb;
       background: transparent;
-      color: #b2bbc9; }
+      color: #e2c0bb; }
       .btn.btn-secondary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #b2bbc9;
+        background: #e2c0bb;
         color: #fff; }
   .btn.btn-white {
     background: #fff !important;
@@ -10006,9 +10006,11 @@ html, body {
 
 .hover-color{
   transition-duration: 1s;
+  /* opacity: 0; */
 }
 
 .hover-color:hover {
+  /* background-image: radial-gradient(circle at center,#ffffcc,white 105%); */
   background-color: #ffffcc;
-  /* opacity: 0.1; */
+  /* opacity: 1; */
 }
