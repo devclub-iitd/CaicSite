@@ -10040,3 +10040,23 @@ opacity:0.9;} */
   align-content: center;
   color: white;
 }
+.card-inner{
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  position: relative;
+  padding:2px;
+}
+.card:hover .card-inner{
+  transform: rotateY(180deg)
+}
+.card-front, .card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.card-back {
+  /* background-color: dodgerblue; */
+  /* color: white; */
+  padding: 60px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
