@@ -10014,3 +10014,28 @@ html, body {
   background-color: #ffffcc;
   /* opacity: 1; */
 }
+
+.fixed-button{
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  z-index: 1;
+  border-radius: 50%;
+  padding: 15px;
+  background: #e2c0bb;
+  color: #fff !important;
+}
+/* .btn.btn-primary {
+  border: 1px solid #e2c0bb !important;
+opacity:0.9;} */
+  .fixed-bottom:hover {
+    border: 1px solid #e2c0bb;
+    background: #e2c0bb;
+    color: #e2c0bb;
+    opacity:1; }
+
+.center-image{
+  padding:5px;
+  margin: 5px;
+  align-content: center;
+}
