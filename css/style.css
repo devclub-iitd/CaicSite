@@ -10060,3 +10060,30 @@ opacity:0.9;} */
   text-align: center;
   transform: rotateY(180deg);
 }
+.new-text{
+  /* position: absolute; */
+  padding: 20%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 1s;
+}
+.card:hover .new-text{
+  visibility: visible;
+  opacity: 1;
+}
+.old-text{
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.card:hover .old-text{
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* .new-text-inner{
+  position: relative;
+  padding: 10px;
+} */
