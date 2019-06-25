@@ -10030,15 +10030,21 @@ html, body {
   padding: 15px;
   background: #e2c0bb;
   color: #fff !important;
+  opacity: 0.5;
 }
 /* .btn.btn-primary {
   border: 1px solid #e2c0bb !important;
 opacity:0.9;} */
-  .fixed-bottom:hover {
+  .fixed-button:hover {
     border: 1px solid #e2c0bb;
-    background: #e2c0bb;
+    background:#ff2200;
     color: #e2c0bb;
     opacity:1; }
+
+.button-above {
+  background: #e2c0bb;
+  bottom: 25%  !important
+}
 
 .center-image{
   padding:5px;

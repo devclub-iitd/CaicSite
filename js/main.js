@@ -4,7 +4,7 @@
  });
 
 
- $('#floating-icon').mouseenter(function(){
+ $('#floating-icon1').mouseenter(function(){
 	$('body').append("<div id='hoveringTooltip' style='position:fixed;'></div>");
 	$('#hoveringTooltip').html("Participate");
 	$('#hoveringTooltip').css({
@@ -19,9 +19,30 @@
 
 	});
 });
-$('#floating-icon').mouseleave(function(){
+$('#floating-icon1').mouseleave(function(){
 	$('#hoveringTooltip').remove();	
 });
+
+$('#floating-icon2').mouseenter(function(){
+	$('body').append("<div id='hoveringTooltip' style='position:fixed;'></div>");
+	$('#hoveringTooltip').html("Query?");
+	$('#hoveringTooltip').css({
+			"top" : ($(this).offset().top),
+			"left" : ($(this).offset().left-50),
+			"z-index":10000,
+			"background-color":"#161616",
+			"border-radius":"5px",
+			"padding":"10px",
+			"color":"#fff",
+			"font-size":"12px Arial",
+
+	});
+});
+$('#floating-icon2').mouseleave(function(){
+	$('#hoveringTooltip').remove();	
+});
+
+
 
 // $("#floating-icon").hover(function(){
 // 	$("#msg_div").hide();
