@@ -3,6 +3,32 @@
  	easing: 'slide'
  });
 
+
+ $('#floating-icon').mouseenter(function(){
+	$('body').append("<div id='hoveringTooltip' style='position:fixed;'></div>");
+	$('#hoveringTooltip').html("Participate");
+	$('#hoveringTooltip').css({
+			"top" : ($(this).offset().top),
+			"left" : ($(this).offset().left-50),
+			"z-index":10000,
+			"background-color":"#161616",
+			"border-radius":"5px",
+			"padding":"10px",
+			"color":"#fff",
+			"font-size":"12px Arial",
+
+	});
+});
+$('#floating-icon').mouseleave(function(){
+	$('#hoveringTooltip').remove();	
+});
+
+// $("#floating-icon").hover(function(){
+// 	$("#msg_div").hide();
+// 	$("#msg_div").show();
+// });
+
+
 (function($) {
 
 	"use strict";
@@ -300,4 +326,6 @@
 
 
 })(jQuery);
+
+
 

@@ -10015,6 +10015,12 @@ html, body {
   /* opacity: 1; */
 }
 
+.fixed-div{
+  position: fixed;
+  bottom: 20%;
+  right: 10%;  
+  z-index: 1;
+}
 .fixed-button{
   position: fixed;
   bottom: 10%;
