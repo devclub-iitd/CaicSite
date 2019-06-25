@@ -10093,3 +10093,10 @@ opacity:0.9;} */
   position: relative;
   padding: 10px;
 } */
+h2.mb-4{
+  font-family: 'Fjalla One';
+}
+
+h3, h4.card-title{
+  font-family: 'Dosis'
+}
