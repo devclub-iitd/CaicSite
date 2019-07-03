@@ -132,16 +132,16 @@ $('#floating-icon2').mouseleave(function(){
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
-	    loop:false,
+	    loop:true,
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:true,
-	    autoplayHoverPause: false,
+	    // nav:true,
+	    autoplayHoverPause: true,
 	    items: 1,
-		touchDrag: false,
-		mouseDrag: false,
+		touchDrag: true,
+		mouseDrag: true,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
 	      0:{

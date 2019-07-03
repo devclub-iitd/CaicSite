@@ -8596,6 +8596,9 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
 
+.comp-carousel{
+  height:200px !important ;
+}
 .hero-wrap {
   width: 100%;
   height: 700px;
