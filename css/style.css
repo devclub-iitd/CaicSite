@@ -10049,6 +10049,11 @@ opacity:0.9;} */
   bottom: 25%  !important
 }
 
+.button-above-twice{
+  background: #e2c0bb;
+  bottom: 40%  !important
+}
+
 .center-image{
   padding:5px;
   margin: 5px;
@@ -10108,4 +10113,32 @@ h2.mb-4{
 
 h3, h4.card-title{
   font-family: 'Dosis'
+}
+
+
+
+#notice-section{
+  animation: colorchange 0.5s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 0.5s infinite; /* Chrome and Safari */
+}
+
+
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: orange;}
+  50%  {background: yellow;}
+  75%  {background: orange;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: red;}
+  25%  {background: orange;}
+  50%  {background: yellow;}
+  75%  {background: orange;}
+  100% {background: red;}
 }

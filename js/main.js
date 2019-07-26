@@ -41,7 +41,24 @@ $('#floating-icon2').mouseenter(function(){
 $('#floating-icon2').mouseleave(function(){
 	$('#hoveringTooltip').remove();	
 });
+$('#floating-icon3').mouseenter(function(){
+	$('body').append("<div id='hoveringTooltip' style='position:fixed;'></div>");
+	$('#hoveringTooltip').html("Schedule");
+	$('#hoveringTooltip').css({
+			"top" : ($(this).offset().top),
+			"left" : ($(this).offset().left-50),
+			"z-index":10000,
+			"background-color":"#161616",
+			"border-radius":"5px",
+			"padding":"10px",
+			"color":"#fff",
+			"font-size":"12px Arial",
 
+	});
+});
+$('#floating-icon3').mouseleave(function(){
+	$('#hoveringTooltip').remove();	
+});
 
 
 // $("#floating-icon").hover(function(){
